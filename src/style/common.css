@@ -1,0 +1,99 @@
+ul, ol {
+    list-style: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+div {
+    display: block;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+label {
+    font-family: Tahoma;
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+fieldset legend {
+    color: #666;
+    padding: 0 5px;
+}
+
+body, div, dl, dt, dd, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+h2 {
+    font: 15px Arial, Helvetica, sans-serif;
+    color: #072;
+    margin: 0 0 12px 0;
+    line-height: 150%;
+}
+
+table {
+    border-collapse: collapse;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+a:link {
+    color: #37a;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #666699;
+    text-decoration: none;
+}
+
+.clearfix {
+    zoom: 1;
+    display: inline-block;
+    _height: 1px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
